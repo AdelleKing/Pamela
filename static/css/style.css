@@ -1,3 +1,15 @@
+/*global styles */
+/* <uniquifier>: Use a unique and descriptive class name
+ <weight>: Use a value from 100 to 900 */
+
+.raleway-font {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: extralight;
+}
+
+
 
 /*nav Bar */
 
@@ -6,6 +18,37 @@
 }
 
 
+/*contact us page */
+
+.contact{
+  align-content: center;
+}
+
+
+/* diary page */
+.diary{
+  margin-right: 5%;
+  font-size: 20px;
+}
+
+/* form*/
+
+.center-form{
+  margin: 0 10rem 0 10rem ;
+}
+
+
+/*footer*/
+.socials{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 2rem;
+}
+
+.spacing{
+  word-spacing: .4rem;
+}
 
 
 
